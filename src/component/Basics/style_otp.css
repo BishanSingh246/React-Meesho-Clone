@@ -1,0 +1,178 @@
+body{
+    margin: 0px;
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    text-align: left;
+}
+.signin {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background: linear-gradient(rgb(253, 233, 242) 0%, rgb(253, 240, 232) 100%, rgb(253, 240, 232) 100%);
+    overflow-y: auto;
+}
+.signin-01{
+    margin-top: 112px;
+    margin-bottom: 80px;
+    height: 708px;
+    width: 433px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border: 1px solid rgb(240, 240, 240);
+}
+.signin-01-01{
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.signin-01-01 img{
+    object-fit: cover;
+    width: 433px;
+    aspect-ratio: auto 433 / 200;
+    height: 200px;
+}
+.signin-01-02{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+    height: 508px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+
+}
+.signin-01-02-01{
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin-top: 40px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+.signin-01-02-01-01{
+    color: rgb(51, 51, 51);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: "Mier bold";
+    margin: 0px;
+    padding: 0px;
+}
+.change-number{
+    color: rgb(244, 51, 151);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Mier bold";
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 12px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.type-otp{
+    margin-top: 40px;
+}
+.otp-input:first-child {
+    margin-left: 0px;
+}
+.otp-input{
+    height: 3.25rem;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    text-align: center;
+    border-width: 0px 0px 1px;
+    border-color: rgb(153, 153, 153);
+    border-style: solid;
+    outline: none;
+    margin: 0px 8px;
+    width: 2.5625rem !important;
+}
+.resend-div{
+
+    margin-top: 20px;
+}
+.resend-otp{
+    cursor: pointer;
+    color: rgb(244, 51, 151);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Mier bold";
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+button, [type="button"], [type="reset"], [type="submit"] {
+    appearance: button;
+}
+
+
+.verify-button{
+    margin-top: 40px;
+    width: 100%;
+    cursor: pointer;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 0.0015em;
+    font-size: 15px;
+    line-height: 20px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    background: rgb(244, 51, 151);
+    border: none;
+    padding: 12px;
+}
+.verify-button-div{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: row;
+
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Mier demi";
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.term-conditions{
+    letter-spacing: 0.012em;
+    position: absolute;
+    bottom: 0px;
+    left: 104px;
+    right: 104px;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.and{
+ margin: auto;
+}
+.term-01{
+    color: rgb(244, 51, 151);
+    text-decoration: none;
+}

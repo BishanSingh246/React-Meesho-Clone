@@ -1,0 +1,136 @@
+/* dropdown css  for navbar_2*/
+.section-02{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background: white;
+    /* top: 0px; */
+}
+
+.navbar-02{
+    width: 100%;
+    /* padding-right: 0px; */
+    /* padding-left: 0px; */
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1328px;
+    color: rgb(51, 51, 51);
+}
+.dropdown{
+    position: relative;
+    height: 52px;
+    display: flex;
+    /* -webkit-box-pack: justify; */
+    justify-content: space-between;
+    /* -webkit-box-align: center; */
+    /* align-items: center; */
+    background: rgb(255, 255, 255);
+    /* pointer-events: all; */
+}
+.link{
+    height: 100%;
+    /* -webkit-box-align: center; */
+    align-items: center;
+    /* -webkit-box-pack: center; */
+    /* justify-content: center; */
+    display: flex;
+    /* border-radius: 2px 2px 0px 0px; */
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 20px; */
+    font-family: "Mier book";
+    /* margin: 0px; */
+    /* padding: 0px; */
+
+
+    /* height: 52px; */
+    /* -webkit-box-align: center; */
+    /* align-items: center; */
+    /* -webkit-box-pack: center; */
+    /* justify-content: center; */
+    /* display: flex; */
+    /* border-radius: 2px 2px 0px 0px; */
+    /* cursor: pointer; */
+}
+
+.link:hover{
+    border-bottom: 4px solid rgb(244, 51, 151);
+    color:  rgb(244, 51, 151);
+}
+
+
+.dropdown-menu{
+    /* display: none; */
+    position: absolute;
+    top: 100%;
+    /* top: 102%; */
+    width: 100%;
+    background: rgb(255, 255, 255);
+    /* flex-direction: column; */
+    /* -webkit-box-pack: start; */
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+    text-align: left;
+    border-style: solid;
+    border-color: rgb(215, 215, 224);
+    border-width: 0px 0.5px 0.5px;
+    box-shadow: rgb(0 0 0 / 5%) 2px 2px 4px 0px;
+    z-index: 100;
+
+
+    /* top: 56px; */
+    /* border: 1px ; */
+    opacity: 0;
+    /* -webkit-box-pack: center; */
+    pointer-events: none;
+    transition: opacity 200ms ease-in;    
+    display: flex; 
+    /* z-index: 100; */
+}
+.dropdown-menu-01{
+    display: flex;
+    /* flex-direction: row; */
+    /* width: 100%; */
+    /* -webkit-box-pack: start; */
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+}
+.dropdown-menu-01-01{
+    display: flex;
+    flex-direction: column;
+    /* -webkit-box-pack: start; */
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+    padding: 16px 20px;
+    align-self: stretch;
+}
+.dropdown-menu-01-01-01{
+    color: rgb(244, 51, 151);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Mier demi";
+    margin: 0px;
+    padding: 8px 20px 8px 20px;
+
+}
+.a-tag-css{
+    display: flex;
+    /* margin-top: 12px; */
+    font-family: "Mier Book", sans-serif;
+    color: rgb(66, 66, 66);
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Mier book";
+    text-decoration: none;
+    padding: 8px 20px 8px 20px;
+}
+
+.dropdown > .link:hover + .dropdown-menu{
+    opacity: 1;
+    pointer-events: all;
+}

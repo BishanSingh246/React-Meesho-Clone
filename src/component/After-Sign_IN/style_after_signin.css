@@ -1,0 +1,76 @@
+.dropdown-content-menu_2 {
+    top: 59.5px;
+}
+
+.aftersigin-div {
+    margin: auto;
+    width: 80%;
+    height: 100%;
+}
+
+.aftersignin {
+    display: flex;
+    align-items: center;
+    color: black;
+    margin: 16px 0px;
+}
+
+.aftersignin img {
+    width: 45px;
+    height: 45px;
+    border-radius: 40px;
+
+}
+
+.aftersignin-01 {
+    text-align: left;
+    margin: 0 13px;
+}
+
+.aftersignin-01-01 {
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.aftersignin-01-02 {
+    font-size: 12px;
+}
+
+.myorders {
+    color: black;
+    text-decoration: none;
+
+    
+    align-items: center;
+    font-size: 24px;
+    display: flex;
+    margin: 15px 0 15px 0;
+    cursor: pointer;
+    width: 100%;
+    /* border-color: white; */
+    border: none;
+    background-color: white;
+    
+}
+
+.myorders-text {
+    margin: 0 14px;
+}
+
+.logout {
+    align-items: center;
+    font-size: 24px;
+    display: flex;
+    margin: 15px 0 15px 0;
+    cursor: pointer;
+    width: 100%;
+    /* border-color: white; */
+    border: none;
+    background-color: white;
+    
+}
+
+.logout-text {
+    margin: 0 14px;
+}
